@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>最基本的BOOT的HTML模板</title>
+    <!-- 设置 viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 兼容国产浏览器的高速模式 -->
+    <meta name="renderer" content="webkit">
+    <!-- 引入 Bootstrap 的 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css"/>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#pane1">功能1</a></li>
+            <li><a data-toggle="tab" href="#pane2">功能2</a></li>
+            <li><a data-toggle="tab" href="#pane3">功能3</a></li>
+        </ul>
+        <!-- TODO 面板 -->
+        <div class="tab-content">
+            <div id="pane1" class="tab-pane active">
+                <p>123Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dignissimos esse exercitationem illum inventore minima nobis odio odit pariatur porro quae qui quis reiciendis sed sit, temporibus vel? Explicabo, quas.</p>
+            </div>
+            <div id="pane2" class="tab-pane">
+                <p>456Lorem ipsum dolor sit amet, consectetur adipisicing elit. A excepturi, similique. Accusamus architecto, commodi consectetur distinctio ea eius error exercitationem facilis fugit harum id itaque, iure magnam minus nemo quos.</p>
+            </div>
+            <div id="pane3" class="tab-pane">
+                <p>789Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at delectus dolore ducimus et eveniet illo maxime quidem sequi vero? Animi commodi esse eveniet ipsa modi nemo! Modi praesentium, quia.</p>
+            </div>
+        </div>
+
+        <h3>带列表组的面板</h3>
+        <div class="panel panel-default">
+            <div class="panel-heading">Panel heading</div>
+            <div class="panel-body">
+                <p>This is a Basic panel content. This is a Basic panel content.
+                    This is a Basic panel content.This is a Basic panel content.
+                    This is a Basic panel content.This is a Basic panel content.
+                    This is a Basic panel content.
+                </p>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">Free Domain Name Registration</li>
+                <li class="list-group-item">Free Window Space hosting</li>
+                <li class="list-group-item">Number of Images</li>
+                <li class="list-group-item">24*7 support</li>
+                <li class="list-group-item">Renewal cost per year</li>
+            </ul>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- Bootstrap 提供的 JS 文件是基于 jQuery -->
+<script src="bootstrap-3.3.6-dist/js/jquery-1.11.3.js"></script>
+<!-- 引入 Bootstrap 的 JS 文件 -->
+<script src="bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+
+</body>
+</html>

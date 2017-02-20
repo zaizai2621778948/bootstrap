@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>最基本的BOOT的HTML模板</title>
+    <!-- 设置 viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 兼容国产浏览器的高速模式 -->
+    <meta name="renderer" content="webkit">
+    <!-- 引入 Bootstrap 的 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css"/>
+
+</head>
+<body>
+<div class="container">
+    <h2>Example of creating Modal with Twitter Bootstrap</h2>
+    <div class="well">
+        <button data-toggle="tooltip" title="this is a tooltip" class="btn btn-default">工具提示</button>
+        <h3>弹出框</h3>
+        <button data-toggle="popover" title="this is a popover" data-content="this is a popover" class="btn btn-default">弹出框</button>
+        <a href="#" id="example" class="btn btn-danger" rel="popover" data-content="It's so simple to create a tooltop for my website!" data-original-title="Twitter Bootstrap Popover">hover for popover</a>
+    </div>
+
+</div>
+
+<!-- Bootstrap 提供的 JS 文件是基于 jQuery -->
+<script src="bootstrap-3.3.6-dist/js/jquery-1.11.3.js"></script>
+<!-- 引入 Bootstrap 的 JS 文件 -->
+<script src="bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+<script>
+    $(function ()
+    { $("#example").popover();
+    });
+    $('button[data-toggle=tooltip]').tooltip();
+    // TODO 弹出框的JS
+    $('button[data-toggle=popover]').popover();
+</script>
+
+
+</body>
+</html>

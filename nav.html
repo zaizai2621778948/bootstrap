@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>最基本的BOOT的HTML模板</title>
+    <!-- 设置 viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 兼容国产浏览器的高速模式 -->
+    <meta name="renderer" content="webkit">
+    <!-- 引入 Bootstrap 的 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css"/>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h3>页签式导航</h3>
+            <ul class="nav nav-tabs">
+                <li class="active" data-toggle="tab">
+                    <a href="#">Home</a> </li>
+                <li data-toggle="tab"><a href="#">Tutorials</a></li>
+                <li data-toggle="tab"><a href="#">Practice Editor </a></li>
+                <li data-toggle="tab"><a href="#">Gallery</a></li>
+                <li data-toggle="tab"><a href="#">Contact</a></li>
+            </ul>
+
+        <h3>胶囊式导航</h3>
+        <ul class="nav nav-pills">
+            <li class="active" data-toggle="tab">
+                <a href="#">Home</a> </li>
+            <li data-toggle="tab"><a href="#">Tutorials</a></li>
+            <li data-toggle="tab"><a href="#">Practice Editor </a></li>
+            <li data-toggle="tab"><a href="#">Gallery</a></li>
+            <li data-toggle="tab"><a href="#">Contact</a></li>
+        </ul>
+        <h3>垂直式导航</h3>
+        <ul class="nav nav-tabs nav-stacked">
+            <li class="active" data-toggle="tab">
+                <a href="#">Home</a>   </li>
+            <li data-toggle="tab"><a href="#">Tutorials</a></li>
+            <li data-toggle="tab"><a href="#">Practice Editor </a></li>
+            <li data-toggle="tab"><a href="#">Gallery</a></li>
+            <li data-toggle="tab"><a href="#">Contact</a></li>
+        </ul>
+        <h3>垂直式导航</h3>
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active" data-toggle="tab">
+                <a href="#">Home</a>   </li>
+            <li data-toggle="tab"><a href="#">Tutorials</a></li>
+            <li data-toggle="tab"><a href="#">Practice Editor </a></li>
+            <li data-toggle="tab"><a href="#">Gallery</a></li>
+            <li data-toggle="tab"><a href="#">Contact</a></li>
+        </ul>
+
+        <h3>带弹框的下拉菜单</h3>
+        <ul class="nav nav-tabs">
+            <li class="active" data-toggle="tab"><a href="#">Home</a></li>
+            <li data-toggle="tab"><a href="#">About</a></li>
+            <li class="dropdown" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">FrontEnd<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Twitter Bootstrap</a></li>
+                    <li><a href="#">Google Plus API</a></li>
+                    <li><a href="#">HTML5</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Examples</a></li>
+                </ul>
+            </li>
+            <li class="dropdown" data-toggle="tab">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">BackEnd<b class="caret bottom-up"></b></a>
+                <ul class="dropdown-menu bottom-up pull-right">
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">MySQL</a></li>
+                    <li><a href="#">PostgreSQL</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Live Demos</a></li>
+                </ul>
+            </li>
+        </ul>
+        </li>
+        </ul>
+
+
+
+    </div>
+</div>
+
+<!-- Bootstrap 提供的 JS 文件是基于 jQuery -->
+<script src="bootstrap-3.3.6-dist/js/jquery-1.11.3.js"></script>
+<!-- 引入 Bootstrap 的 JS 文件 -->
+<script src="bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+
+</body>
+</html>

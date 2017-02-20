@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>最基本的BOOT的HTML模板</title>
+    <!-- 设置 viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 兼容国产浏览器的高速模式 -->
+    <meta name="renderer" content="webkit">
+    <!-- 引入 Bootstrap 的 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css"/>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1 class="page-header">基本按钮的三种样式</h1>
+        <button class="btn btn-danger">按钮一b</button>
+        <a href="#" class="btn btn-danger">按钮一a</a>
+        <input type="button" class="btn btn-danger" value="按钮一input">
+    </div>
+    <div class="row">
+        <h1 class="page-header">不同样式的按钮层显</h1>
+        <button class="btn btn-danger">按钮b</button>
+        <button class="btn btn-default">按钮b</button>
+        <button class="btn btn-info">按钮b</button>
+        <button class="btn btn-primary">按钮b</button>
+        <button class="btn btn-success">按钮b</button>
+        <h3>为a元素提供链接样式</h3>
+        <a href="#" class="btn btn-link">连接</a>
+    </div>
+    <div class="row">
+        <h1 class="page-header">5种不同大小的按钮</h1>
+        <button class="btn btn-xs btn-danger">按钮xs</button>
+        <button class="btn btn-sm btn-warning">按钮sm</button>
+        <button class="btn btn-md btn-success">按钮md</button>
+        <button class="btn btn-lg btn-primary">按钮lg</button>
+        <h3>按钮的块级元素</h3>
+        <button class="btn btn-block btn-info">按钮block</button>
+    </div>
+    <h3>按钮组</h3>
+    <div class="btn-group">
+        <button class="btn btn-danger">
+            <span class="glyphicon glyphicon-align-left"></span>
+            <span class="glyphicon glyphicon-align-center"></span>
+            <span class="glyphicon glyphicon-align-right"></span>
+            <span class="glyphicon glyphicon-apple"></span>
+            <span class="glyphicon glyphicon-alert"></span>
+            <span class="glyphicon glyphicon-adjust"></span>
+        </button>
+    </div>
+
+        <div class="btn-group">
+            <button class="btn btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+            </button>
+            <button class="btn btn-info">
+                <span class="glyphicon glyphicon-pause"></span>
+            </button>
+            <button class="btn btn-info">
+                <span class="glyphicon glyphicon-stop"></span>
+            </button>
+        </div>
+
+
+</div>
+
+<!-- Bootstrap 提供的 JS 文件是基于 jQuery -->
+<script src="bootstrap-3.3.6-dist/js/jquery-1.11.3.js"></script>
+<!-- 引入 Bootstrap 的 JS 文件 -->
+<script src="bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+
+</body>
+</html>

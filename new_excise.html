@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>最基本的BOOT的HTML模板</title>
+    <!-- 设置 viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 兼容国产浏览器的高速模式 -->
+    <meta name="renderer" content="webkit">
+    <!-- 引入 Bootstrap 的 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css"/>
+
+</head>
+<body>
+    <!--响应式导航条第一部分：头部-->
+   <div class="row navbar navbar-default">
+       <div class="container">
+       <div class="navbar-header">
+           <a class="navbar-brand" href="#">TARENA</a>
+           <a class="navbar-toggle" data-toggle="collapse" href="#my-navbar-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+           </a>
+       </div>
+       <div id="my-navbar-collapse" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#">新闻</a></li>
+               <li class="dropdown"><a href="#" data-toggle="dropdown">产品<b class="caret"></b></a>
+                   <ul class="dropdown-menu">
+                       <li><a href="#">洗衣机</a></li>
+                       <li><a href="#">冰箱</a></li>
+                       <li><a href="#">电视</a></li>
+                       <li class="divider"></li>
+                       <li><a href="#">奶粉</a></li>
+                       <li><a href="#">尿不湿</a></li>
+                   </ul>
+               </li>
+
+           </ul>
+           <a href="#" class="navbar-right navbar-text navbar-link">注册</a>
+           <span class="navbar-text navbar-right">|</span>
+           <button class="navbar-btn navbar-right btn btn-success">登录</button>
+           <form class="navbar-form navbar-right">
+               <div class="form-group has-feedback">
+                   <label class="sr-only" for="search">产品搜索</label>
+                   <input type="text" class="form-control" id="search" placeholder="产品搜索....">
+                   <span class="glyphicon glyphicon-search form-control-feedback"></span>
+               </div>
+
+           </form>
+
+       </div>
+   </div>
+</div>
+
+    <!--第二部分-->
+    <div class="container">
+      <div class="row">
+          <div class="col-xs-12 col-sm-3 col-md-2">
+              <ul class="list-group">
+                  <li class="list-group-item">
+                      <span class="glyphicon glyphicon-home"></span>主页
+                      <span class="badge">1211</span>
+                  </li>
+                  <li class="list-group-item">
+                      <span class="badge">1434</span>
+                      <span class="glyphicon glyphicon-camera"></span>
+                      相片墙
+                  </li>
+                  <li class="list-group-item">
+                      <span class="badge">980</span>
+                      <span class="glyphicon glyphicon-cog"></span>
+                      个人中心
+                  </li>
+
+
+              </ul>
+          </div>
+          <div class="col-xs-12 col-md-10 col-sm-9">
+            <div class="panel-group panel-danger">
+                <div class="panel-heading">
+                    <div><a href="#demo" data-toggle="collapse">家庭相册</a></div>
+                </div>
+                <div id="demo" class="collapse well">
+                   <div class="panel-body">
+                       <div class="row">
+                           <div class="col-xs-12 col-md-8">
+                               <div class="media">
+                                   <div class="media-left">
+                                       <a href="#">
+                                           <img class="media-object" src="img/1.jpg" alt=""/>
+                                       </a>
+                                   </div>
+                                   <div class="media-body">
+                                       <h3 class="media-heading">世界名画：红花似火</h3>
+                                       <p class="text-info">图片介绍</p>
+                                   </div>
+                               </div>
+                               <div class="media">
+                                   <div class="media-left">
+                                       <a href="#">
+                                           <img class="media-object" src="img/3.jpg" alt=""/>
+                                       </a>
+                                   </div>
+                                   <div class="media-body">
+                                       <h3 class="media-heading">世界名画：岁月如梭</h3>
+                                       <p class="text-info">图片介绍</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+              <!--同学相册-->
+              <div class="panel panel-warning">
+                  <div class="panel-heading">
+                      <a href="#classmate" data-toggle="collapse" >
+                          同学相册
+                      </a>
+                  </div>
+                      <div class="panel panel-body" id="classmate">
+                          <div>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolores esse necessitatibus non optio,
+                                  quas sit soluta vel.
+                                  Accusantium consectetur excepturi fuga maiores molestiae nam quidem repudiandae sit voluptatibus!
+                                  Laudantium!</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolores esse necessitatibus non optio,
+                                  quas sit soluta vel.
+                                  Accusantium consectetur excepturi fuga maiores molestiae nam quidem repudiandae sit voluptatibus!
+                                  Laudantium!</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap 提供的 JS 文件是基于 jQuery -->
+<script src="bootstrap-3.3.6-dist/js/jquery-1.11.3.js"></script>
+<!-- 引入 Bootstrap 的 JS 文件 -->
+<script src="bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+
+</body>
+</html>
